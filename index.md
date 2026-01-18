@@ -3,9 +3,9 @@ layout: default
 title: bobsoapwins's Projects
 ---
 
-# Welcome to bobsoapwins's Github Portal
+# Welcome to bobsoapwins's GitHub Portal
 
-This page features all of bobsoapwins's projects, including [Firebase Studio](https://firebase.studio/) and [Github](https://github.com/) projects.
+This page features all of bobsoapwins's projects, including [Firebase Studio](https://firebase.studio/) and [GitHub](https://github.com/) projects.
 
 > [!IMPORTANT]
 > Not all of these projects will work. This depends on if the dev server is online and if bobsoapwins has the project open. This only applies to Firebase Studio projects.
