@@ -8,3 +8,17 @@
 ---
 ## Tipping Calculator
 Firebase Studio: https://9000-firebase-studio-1757181253472.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/?monospaceUid=516973
+
+---
+
+## GitHub Pages Features
+
+This site supports GitHub-flavored markdown alerts! You can use the following syntax in any markdown file:
+
+- `>[!NOTE]` - For informational content (blue)
+- `>[!TIP]` - For helpful suggestions (green)
+- `>[!IMPORTANT]` - For critical information (purple)
+- `>[!WARNING]` - For cautionary information (yellow)
+- `>[!CAUTION]` - For dangerous content (red)
+
+See [alerts-demo.html](alerts-demo.html) for live examples of all alert types.
