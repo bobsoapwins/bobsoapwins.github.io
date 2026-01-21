@@ -2,6 +2,9 @@
 // This script converts GitHub-style alerts (>[!TYPE]) to styled HTML
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Alert pattern regex - matches [!NOTE], [!TIP], [!IMPORTANT], [!WARNING], [!CAUTION]
+  const ALERT_PATTERN = /^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/i;
+  
   // Find all blockquotes
   const blockquotes = document.querySelectorAll('blockquote');
   
@@ -9,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const firstChild = blockquote.firstElementChild;
     if (!firstChild) return;
     
-    const text = firstChild.textContent || firstChild.innerText;
+    const text = firstChild.textContent;
     
     // Check for alert patterns like [!IMPORTANT], [!NOTE], etc.
-    const alertMatch = text.match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/i);
+    const alertMatch = text.match(ALERT_PATTERN);
     
     if (alertMatch) {
       const alertType = alertMatch[1].toLowerCase();
@@ -27,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       title.textContent = titleText;
       
       // Remove the [!TYPE] marker from the first paragraph
-      firstChild.textContent = text.replace(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*/i, '');
+      firstChild.textContent = text.replace(ALERT_PATTERN, '').replace(/^\s+/, '');
       
       // Insert title at the beginning
       blockquote.insertBefore(title, blockquote.firstChild);
