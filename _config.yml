@@ -1,0 +1,29 @@
+# GitHub Pages Configuration
+# This enables proper rendering of GitHub-flavored markdown features
+
+# Use GitHub-flavored markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# GitHub Pages plugins
+plugins:
+  - jekyll-github-metadata
+
+# Theme (optional - using default GitHub Pages theme)
+# You can uncomment and change this to use a different theme
+# theme: minima
+
+# Site settings
+title: bobsoapwins's Projects
+description: Personal project portfolio showcasing various web development projects
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
