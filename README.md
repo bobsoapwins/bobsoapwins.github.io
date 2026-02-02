@@ -6,7 +6,7 @@
 > Not all of these projects will work. This depends on if the dev server is online and if bobsoapwins has the project open. This only applies to Firebase Studio projects.
 
 > [!NOTE]
-> Test note
+> Test Note
 
 ---
 ## Tipping Calculator
