@@ -5,13 +5,12 @@
 > [!IMPORTANT]
 > Not all of these projects will work. This depends on if the dev server is online and if bobsoapwins has the project open. This only applies to Firebase Studio projects.
 
-> [!IMPORTANT]
-> Test Note
-
 ---
 ## Tipping Calculator
 Firebase Studio: https://9000-firebase-studio-1757181253472.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/?monospaceUid=516973
 
+[!IMPORTANT]
+Not all these will work
 ---
 
 ## GitHub Pages Features
