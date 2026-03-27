@@ -9,8 +9,9 @@
 ## Tipping Calculator
 Firebase Studio: https://9000-firebase-studio-1757181253472.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/?monospaceUid=516973
 
-[!IMPORTANT]
-Not all these will work
+>[!IMPORTANT]
+>Not all these will work
+
 ---
 
 ## GitHub Pages Features
